@@ -14,23 +14,18 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
-import org.openqa.selenium.Keys as Keys
 
-WebUI.openBrowser('')
+WebUI.openBrowser('https://preprod.iadfrance.fr/')
 
-WebUI.navigateToUrl('https://preprod.iadfrance.fr/')
+WebUI.click(findTestObject('test5-respo/Page_iad - Vente achat location maison appartement immobilier de proximit/a_Acheter'))
 
-WebUI.click(findTestObject('Object Repository/Test4-sitepublic/Page_iad - Vente achat location maison appa_3091d3/a_Refuser'))
+WebUI.click(findTestObject('test5-respo/Page_iad - Vente achat location maison appartement immobilier de proximit/a_Estimer'))
 
-WebUI.click(findTestObject('Object Repository/Test4-sitepublic/Page_iad - Vente achat location maison appa_3091d3/a_Acheter'))
+WebUI.click(findTestObject('test5-respo/Page_iad - Vente achat location maison appartement immobilier de proximit/a_Louer'))
 
-WebUI.click(findTestObject('Object Repository/Test4-sitepublic/Page_iad - Vente achat location maison appa_3091d3/a_Louer'))
+WebUI.click(findTestObject('test5-respo/Page_iad - Vente achat location maison appartement immobilier de proximit/a_Vendre'))
 
-WebUI.click(findTestObject('Object Repository/Test4-sitepublic/Page_iad - Vente achat location maison appa_3091d3/a_Vendre'))
-
-WebUI.click(findTestObject('Object Repository/Test4-sitepublic/Page_iad - Vendre son bien immobilier avec _1ba77b/a_Estimer'))
-
-WebUI.verifyElementPresent(findTestObject('Object Repository/Test4-sitepublic/Page_iad - Vendre son bien immobilier avec _1ba77b/a_Estimer'), 
+WebUI.verifyElementPresent(findTestObject('test5-respo/Page_iad - Vente achat location maison appartement immobilier de proximit/a_Vendre'), 
     0)
 
 WebUI.closeBrowser()

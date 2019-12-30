@@ -18,19 +18,17 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl('https://preprod.iadfrance.fr/')
+WebUI.navigateToUrl('https://www.facebook.com/')
 
-WebUI.click(findTestObject('Object Repository/Test4-sitepublic/Page_iad - Vente achat location maison appa_3091d3/a_Refuser'))
+WebUI.setText(findTestObject('Object Repository/facebook-test/Page_Facebook - Connexion ou inscription/input_Mot de passe_email'), 
+    'nezha.ennejjary@gmail.com')
 
-WebUI.click(findTestObject('Object Repository/Test4-sitepublic/Page_iad - Vente achat location maison appa_3091d3/a_Acheter'))
+WebUI.setEncryptedText(findTestObject('Object Repository/facebook-test/Page_Facebook - Connexion ou inscription/input_Mot de passe_pass'), 
+    '5xx1bkCcAlw=')
 
-WebUI.click(findTestObject('Object Repository/Test4-sitepublic/Page_iad - Vente achat location maison appa_3091d3/a_Louer'))
+WebUI.click(findTestObject('Object Repository/facebook-test/Page_Facebook - Connexion ou inscription/input_Mot de passe_u_0_b'))
 
-WebUI.click(findTestObject('Object Repository/Test4-sitepublic/Page_iad - Vente achat location maison appa_3091d3/a_Vendre'))
-
-WebUI.click(findTestObject('Object Repository/Test4-sitepublic/Page_iad - Vendre son bien immobilier avec _1ba77b/a_Estimer'))
-
-WebUI.verifyElementPresent(findTestObject('Object Repository/Test4-sitepublic/Page_iad - Vendre son bien immobilier avec _1ba77b/a_Estimer'), 
+WebUI.verifyElementPresent(findTestObject('Object Repository/facebook-test/Page_Facebook - Connexion ou inscription/input_Mot de passe_u_0_b'), 
     0)
 
 WebUI.closeBrowser()
