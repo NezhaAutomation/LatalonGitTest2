@@ -14,4 +14,32 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
+import org.openqa.selenium.Keys as Keys
+
+WebUI.openBrowser('')
+
+WebUI.navigateToUrl('https://www.google.com/intl/fr/gmail/about/')
+
+WebUI.click(findTestObject('Object Repository/Test-gmail/Page_Gmail  La messagerie avec espace de st_0e3dd2/a_Connexion'))
+
+WebUI.switchToWindowTitle('Gmail')
+
+WebUI.setText(findTestObject('Object Repository/Test-gmail/Page_Gmail/input_Accder  Gmail_identifier'), 'nezha.ennejjary@gmail.com')
+
+WebUI.click(findTestObject('Object Repository/Test-gmail/Page_Gmail/span_Suivant'))
+
+WebUI.setEncryptedText(findTestObject('Object Repository/Test-gmail/Page_Gmail/input_Trop de tentatives infructueuses_password'), 
+    '3S6bj8v6lRWDesZ2lQz9jw==')
+
+WebUI.click(findTestObject('Object Repository/Test-gmail/Page_Gmail/span_Suivant'))
+
+WebUI.click(findTestObject('Object Repository/Test-gmail/Page_Gmail/polygon'))
+
+WebUI.click(findTestObject('Object Repository/Test-gmail/Page_Gmail/span_Suivant'))
+
+WebUI.verifyElementPresent(findTestObject('Object Repository/Test-gmail/Page_Gmail/span_Suivant'), 0)
+
+WebUI.acceptAlert()
+
+WebUI.closeBrowser()
 
