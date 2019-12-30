@@ -39,7 +39,5 @@ WebUI.click(findTestObject('Object Repository/Test-gmail/Page_Gmail/span_Suivant
 
 WebUI.verifyElementPresent(findTestObject('Object Repository/Test-gmail/Page_Gmail/span_Suivant'), 0)
 
-WebUI.acceptAlert()
-
 WebUI.closeBrowser()
 
