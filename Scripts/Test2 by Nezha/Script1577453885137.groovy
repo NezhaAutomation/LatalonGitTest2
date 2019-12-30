@@ -23,25 +23,6 @@ WebUI.navigateToUrl('https://preprod.iadfrance.fr/')
 WebUI.click(findTestObject('Object Repository/Test-Siteweb/Page_iad - Vente achat location maison appa_3091d3/span_Crer un compte'))
 
 WebUI.setText(findTestObject('Object Repository/Test-Siteweb/Page_iad - Vente achat location maison appa_3091d3/input_Connexion_fos_user_registration_formemail'), 
-    'Nezha.e@hiitconsulting.com')
-
-WebUI.setEncryptedText(findTestObject('Object Repository/Test-Siteweb/Page_iad - Vente achat location maison appa_3091d3/input_Connexion_fos_user_registration_formp_5b0d88'), 
-    '3S6bj8v6lRWDesZ2lQz9jw==')
-
-WebUI.click(findTestObject('Object Repository/Test-Siteweb/Page_iad - Vente achat location maison appa_3091d3/input_Connexion_fos_user_registration_formcgu'))
-
-WebUI.click(findTestObject('Object Repository/Test-Siteweb/Page_iad - Vente achat location maison appa_3091d3/input_Politique de confidentialit_register__ea03d9'))
-
-WebUI.click(findTestObject('Object Repository/Test-Siteweb/Page_iad - Vente achat location maison appa_3091d3/input_Politique de confidentialit_promoP'))
-
-WebUI.click(findTestObject('Object Repository/Test-Siteweb/Page_iad - Vente achat location maison appa_3091d3/button_Sinscrire'))
-
-WebUI.setEncryptedText(findTestObject('Object Repository/Test-Siteweb/Page_iad - Vente achat location maison appa_3091d3/input_Connexion_fos_user_registration_formp_e302d8'), 
-    '3S6bj8v6lRWDesZ2lQz9jw==')
-
-WebUI.click(findTestObject('Object Repository/Test-Siteweb/Page_iad - Vente achat location maison appa_3091d3/button_Sinscrire'))
-
-WebUI.setText(findTestObject('Object Repository/Test-Siteweb/Page_iad - Vente achat location maison appa_3091d3/input_Connexion_fos_user_registration_formemail'), 
     'Nezha.e@hiitconsulting12.com')
 
 WebUI.setEncryptedText(findTestObject('Object Repository/Test-Siteweb/Page_iad - Vente achat location maison appa_3091d3/input_Connexion_fos_user_registration_formp_5b0d88'), 
