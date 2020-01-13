@@ -20,18 +20,77 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('https://preprod.iadfrance.fr/')
 
-WebUI.click(findTestObject('Object Repository/Test4-sitepublic/Page_iad - Vente achat location maison appa_3091d3/a_Refuser'))
+WebUI.click(findTestObject('Object Repository/Test4-sitepublic/Page_iad - Vendre son bien immobilier avec _1ba77b/a_Vendre'))
 
-WebUI.click(findTestObject('Object Repository/Test4-sitepublic/Page_iad - Vente achat location maison appa_3091d3/a_Acheter'))
+WebUI.click(findTestObject('Object Repository/Test4-sitepublic/Page_iad - Vendre son bien immobilier avec _1ba77b/a_Vendre votre bien'))
 
-WebUI.click(findTestObject('Object Repository/Test4-sitepublic/Page_iad - Vente achat location maison appa_3091d3/a_Louer'))
+WebUI.click(findTestObject('Object Repository/Test4-sitepublic/Page_iad - Vendre son bien immobilier avec _1ba77b/a_Type de bien'))
 
-WebUI.click(findTestObject('Object Repository/Test4-sitepublic/Page_iad - Vente achat location maison appa_3091d3/a_Vendre'))
+WebUI.click(findTestObject('Object Repository/Test4-sitepublic/Page_iad - Vendre son bien immobilier avec _1ba77b/li_MaisonVilla'))
 
-WebUI.click(findTestObject('Object Repository/Test4-sitepublic/Page_iad - Vendre son bien immobilier avec _1ba77b/a_Estimer'))
+WebUI.click(findTestObject('Object Repository/Test4-sitepublic/Page_iad - Vendre son bien immobilier avec _1ba77b/a_Nombre de pices'))
 
-WebUI.verifyElementPresent(findTestObject('Object Repository/Test4-sitepublic/Page_iad - Vendre son bien immobilier avec _1ba77b/a_Estimer'), 
-    0)
+WebUI.click(findTestObject('Object Repository/Test4-sitepublic/Page_iad - Vendre son bien immobilier avec _1ba77b/li_1'))
+
+WebUI.setText(findTestObject('Object Repository/Test4-sitepublic/Page_iad - Vendre son bien immobilier avec _1ba77b/input_Appartement_sell_my_propertyproduct_surface'), 
+    '900')
+
+WebUI.setText(findTestObject('Object Repository/Test4-sitepublic/Page_iad - Vendre son bien immobilier avec _1ba77b/input_m_sell_my_propertyprice'), 
+    '7000000000')
+
+WebUI.setText(findTestObject('Object Repository/Test4-sitepublic/Page_iad - Vendre son bien immobilier avec _1ba77b/input_Ce champ est requis_sell_my_propertyp_746687'), 
+    'adsdfgjz')
+
+WebUI.setText(findTestObject('Object Repository/Test4-sitepublic/Page_iad - Vendre son bien immobilier avec _1ba77b/input_Ce champ est requis_sell_my_propertyp_8a9de1'), 
+    '40000000')
+
+WebUI.click(findTestObject('Object Repository/Test4-sitepublic/Page_iad - Vendre son bien immobilier avec _1ba77b/div_Etape 2'))
+
+WebUI.click(findTestObject('Object Repository/Test4-sitepublic/Page_iad - Vendre son bien immobilier avec _1ba77b/a_Vous tes'))
+
+WebUI.click(findTestObject('Object Repository/Test4-sitepublic/Page_iad - Vendre son bien immobilier avec _1ba77b/li_Madame'))
+
+WebUI.setText(findTestObject('Object Repository/Test4-sitepublic/Page_iad - Vendre son bien immobilier avec _1ba77b/input_Monsieur_sell_my_propertyfirst_name'), 
+    'test')
+
+WebUI.setText(findTestObject('Object Repository/Test4-sitepublic/Page_iad - Vendre son bien immobilier avec _1ba77b/input_Monsieur_sell_my_propertylast_name'), 
+    'Test')
+
+WebUI.setText(findTestObject('Object Repository/Test4-sitepublic/Page_iad - Vendre son bien immobilier avec _1ba77b/input_Monsieur_sell_my_propertyemail'), 
+    'test.test@test.com')
+
+WebUI.setText(findTestObject('Object Repository/Test4-sitepublic/Page_iad - Vendre son bien immobilier avec _1ba77b/input_Monsieur_sell_my_propertytelephone'), 
+    '06235417899')
+
+WebUI.click(findTestObject('Object Repository/Test4-sitepublic/Page_iad - Vendre son bien immobilier avec _1ba77b/input_Monsieur_register_newsletterV'))
+
+WebUI.click(findTestObject('Object Repository/Test4-sitepublic/Page_iad - Vendre son bien immobilier avec _1ba77b/div_reCAPTCHA_recaptcha-checkbox-border'))
+
+WebUI.click(findTestObject('Object Repository/Test4-sitepublic/Page_iad - Vendre son bien immobilier avec _1ba77b/img_Lorsque vous avez termin cliquez sur le bouton de validation_rc-image-tile-33'))
+
+WebUI.click(findTestObject('Object Repository/Test4-sitepublic/Page_iad - Vendre son bien immobilier avec _1ba77b/img_Lorsque vous avez termin cliquez sur le bouton de validation_rc-image-tile-33'))
+
+WebUI.click(findTestObject('Object Repository/Test4-sitepublic/Page_iad - Vendre son bien immobilier avec _1ba77b/img_Lorsque vous avez termin cliquez sur le bouton de validation_rc-image-tile-33'))
+
+WebUI.click(findTestObject('Object Repository/Test4-sitepublic/Page_iad - Vendre son bien immobilier avec _1ba77b/button_Valider'))
+
+WebUI.click(findTestObject('Object Repository/Test4-sitepublic/Page_iad - Vendre son bien immobilier avec _1ba77b/div_Lorsque vous avez termin cliquez sur le_83aa4e'))
+
+WebUI.click(findTestObject('Object Repository/Test4-sitepublic/Page_iad - Vendre son bien immobilier avec _1ba77b/button_Valider'))
+
+WebUI.click(findTestObject('Object Repository/Test4-sitepublic/Page_iad - Vendre son bien immobilier avec _1ba77b/img_Lorsque vous avez termin cliquez sur le_38e283'))
+
+WebUI.click(findTestObject('Object Repository/Test4-sitepublic/Page_iad - Vendre son bien immobilier avec _1ba77b/img_Lorsque vous avez termin cliquez sur le_38e283'))
+
+WebUI.click(findTestObject('Object Repository/Test4-sitepublic/Page_iad - Vendre son bien immobilier avec _1ba77b/img_Lorsque vous avez termin cliquez sur le_38e283'))
+
+WebUI.click(findTestObject('Object Repository/Test4-sitepublic/Page_iad - Vendre son bien immobilier avec _1ba77b/button_Valider'))
+
+WebUI.click(findTestObject('Object Repository/Test4-sitepublic/Page_iad - Vendre son bien immobilier avec _1ba77b/div_Lorsque vous avez termin cliquez sur le_83aa4e_1'))
+
+WebUI.click(findTestObject('Object Repository/Test4-sitepublic/Page_iad - Vendre son bien immobilier avec _1ba77b/button_Valider'))
+
+WebUI.click(findTestObject('Object Repository/Test4-sitepublic/Page_iad - Vendre son bien immobilier avec _1ba77b/span_Soumettre'))
 
 WebUI.closeBrowser()
 
